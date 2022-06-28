@@ -1,6 +1,7 @@
 import streamlit as st
 st.set_page_config(page_title="Plottin")
-st.write('<h1 style="color:red;">孔维康组项目展示</h1>',unsafe_allow_html(True))
+strr = '孔维康组项目展示'
+st.write('<h1 style="color:red;">strr</h1>',unsafe_allow_html(True))
 name = st.sidebar.selectbox(
     "小组成员",
     ("孔维康", "丁子明", "洪飞阳", "白文杰", "段宏伟", "张鑫鹏", "孙亚茹", "李碧拓")
