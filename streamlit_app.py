@@ -3,7 +3,16 @@ import pandas as pd
 import numpy as np
 # markdown
 st.markdown('Streamlit Demo')
+import streamlit as st
 
+st.set_page_config(
+    page_title="Hello",
+    page_icon="👋",
+)
+
+st.write("# Welcome to Streamlit! 👋")
+
+st.sidebar.success("Select a demo above.")
 # 设置网页标题
 st.title('一个傻瓜式构建可视化 web的 Python 神器 -- streamlit')
 
