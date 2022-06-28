@@ -27,4 +27,4 @@ xception_model.add(Dense(units = 10, activation = 'softmax'))
 xception_model.summary()""",language='python')
     st.markdown("""<img src="https://gss0.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/7af40ad162d9f2d36e8ff4cba1ec8a136327cc7c.jpg" width = "100" height = "100"/>""",unsafe_allow_html=True)
 if name=="李碧拓" and job =='模型训练':
-    st.header('丁子明数据处理')
+    st.header('李碧拓模型训练')
