@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 # markdown
 st.markdown('Streamlit Demo')
 
@@ -28,7 +29,7 @@ code2 = '''import streamlit as st
 st.markdown('Streamlit Demo')'''
 st.code(code2, language='python')
 df = pd.DataFrame(
-    np.random.randn(10, 5),
+    np.random.randn(10,5),
     columns=('第%d列' % (i+1) for i in range(5))
 )
 
