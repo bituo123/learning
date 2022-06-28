@@ -12,4 +12,4 @@ job = st.sidebar.selectbox(
 )
 if name=="丁子明" and job =='数据处理':
     st.header('丁子明数据处理')
-    st.markdown('![图片alt]("./006qLo0yly1fz2xu33h30j30j60j6dgy.jpg")')
+    st.markdown('![图片alt]("https://gss0.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/7af40ad162d9f2d36e8ff4cba1ec8a136327cc7c.jpg")')
