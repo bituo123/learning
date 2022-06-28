@@ -1,2 +1,3 @@
 import streamlit as st
-st.markdown("# Plotting Demo")
+st.set_page_config(page_title="Plotting Demo")
+
