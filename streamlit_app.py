@@ -9,5 +9,5 @@ job = st.sidebar.selectbox(
     "项目展示",
     ("数据处理", "模型训练", "模型评估", "模型预测")
 )
-if name=="丁子明" and job =='项目展示':
+if name=="丁子明" and job =='数据处理':
     st.tittle('丁子明项目展示')
